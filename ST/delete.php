@@ -17,7 +17,7 @@ $temp =  $_GET['event'];
 
 if(mysqli_query($con,$qry)&&mysqli_query($con,$qry1)){
 	$_SESSION['message1']="Successfully deleted!";
-	$url='http://localhost/ST/admin.php';
+	$url='http://localhost/INVICTUS/ST/admin.php';
     echo '<META HTTP-EQUIV=REFRESH CONTENT="1; '.$url.'">';
 	} 
 	else{  

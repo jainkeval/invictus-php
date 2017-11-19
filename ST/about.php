@@ -34,7 +34,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-				<a href="admin.php" class="navbar-brand"> INVICTUS</a>
+				<a href="index.php" class="navbar-brand"> INVICTUS</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-nav-demo">
 				<ul class="nav navbar-nav">

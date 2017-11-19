@@ -2,7 +2,7 @@
 <html>
 	<head>
 	<title>MyEvents</title>
-	<link rel="stylesheet" type="text/css" href="http://localhost/ST/css/style.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost/INVICTUS/ST/css/style.css">
   <style type="text/css">
     body { padding-top: 70px; }
     .jumbotron {
@@ -56,16 +56,16 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-				<a href="http://localhost/ST/client.php" class="navbar-brand">  INVICTUS</a>
+				<a href="http://localhost/INVICTUS/ST/client.php" class="navbar-brand">  INVICTUS</a>
 			</div>
 			<div class="collapse navbar-collapse" id="bs-nav-demo">
 				<ul class="nav navbar-nav">
-					<li><a href="http://localhost/ST/client_about.php">About</a></li>
-					<li><a href="http://localhost/ST/client_contact.php">Contact</a></li>
+					<li><a href="http://localhost/INVICTUS/ST/client_about.php">About</a></li>
+					<li><a href="http://localhost/INVICTUS/ST/client_contact.php">Contact</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="http://localhost/ST/my_events.php">My Events</a></li>
-					<li><a href="http://localhost/ST/logout.php">Logout</a></li>
+					<li><a href="http://localhost/INVICTUS/ST/my_events.php">My Events</a></li>
+					<li><a href="http://localhost/INVICTUS/ST/logout.php">Logout</a></li>
 				</ul>
 			</div>
 		</div>

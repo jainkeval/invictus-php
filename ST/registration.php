@@ -39,7 +39,7 @@ $qry = "INSERT INTO `registrations` (`event`, `mobile`, `start`, `end`, `time`, 
 
 if(mysqli_query($con,$qry)){
 	$_SESSION['message1']="Successfully registered!";
-	$url='http://localhost/ST/client.php';
+	$url='http://localhost/INVICTUS/ST/client.php';
     echo '<META HTTP-EQUIV=REFRESH CONTENT="1; '.$url.'">';
 	} 
 	else{  
@@ -49,7 +49,7 @@ if(mysqli_query($con,$qry)){
 
 }else{
 	$_SESSION["msg1"]="Already Registered!!";
-	 header("location:http://localhost/ST/client.php");
+	 header("location:http://localhost/INVICTUS/ST/client.php");
 
 }
 	mysqli_close($con);

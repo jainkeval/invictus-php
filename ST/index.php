@@ -74,10 +74,10 @@
 
     while($temp = mysqli_fetch_array( $result ))
     {
-      $link = "http://localhost/ST/login.php";
+      $link = "http://localhost/INVICTUS/ST/login.php";
       $src = $temp['poster'];
 
-      $link2 = "http://localhost/ST/view_index.php/?event=";
+      $link2 = "http://localhost/INVICTUS/ST/view_index.php/?event=";
       $link2 = $link2. "" .$temp['event'];
 
       echo "<div class='col-lg-4 col-sm-6'><p><a href='$link2'><img src='$src'  alt = 'pic'></img></a>";

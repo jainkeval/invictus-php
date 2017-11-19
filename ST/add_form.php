@@ -27,7 +27,7 @@
     function validate(){
     var startDate = document.getElementById("sd").value;
     var endDate = document.getElementById("ed").value;
-    if ((Date.parse(startDate) >= Date.parse(endDate))) {
+    if ((Date.parse(startDate) > Date.parse(endDate))) {
           alert("End date should be greater than Start date");
           document.getElementById("ed").value = "";
       }

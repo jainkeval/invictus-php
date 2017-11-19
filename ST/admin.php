@@ -94,12 +94,12 @@
 
       while($temp = mysqli_fetch_array( $result ))
       {
-        $link = "http://localhost/ST/view_users.php/?event=";
+        $link = "http://localhost/INVICTUS/ST/view_users.php/?event=";
         $link = $link. "" .$temp['event'];
         $src = $temp['poster'];
 
       //link for deleting
-      $link2 = "http://localhost/ST/delete.php/?event=";
+      $link2 = "http://localhost/INVICTUS/ST/delete.php/?event=";
       $link2 = $link2. "" .$temp['event'];
         
         echo "<div class='col-lg-4 col-sm-6'><p><img src='$src'  alt = 'pic'></img>";

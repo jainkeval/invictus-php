@@ -2,7 +2,7 @@
 <html>
   <head>
   <title>AdminPage</title>
-  <link rel="stylesheet" type="text/css" href="http://localhost/ST/css/style.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost/INVICTUS/ST/css/style.css">
   <style type="text/css">
     body { padding-top: 70px; }
     .jumbotron {
@@ -50,17 +50,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="http://localhost/ST/index.php" class="navbar-brand">  INVICTUS</a>
+        <a href="http://localhost/INVICTUS/ST/index.php" class="navbar-brand">  INVICTUS</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-nav-demo">
         <ul class="nav navbar-nav">
-          <li><a href="http://localhost/ST/admin_about.php">About</a></li>
-          <li><a href="http://localhost/ST/admin_contact.php">Contact</a></li>
+          <li><a href="http://localhost/INVICTUS/ST/admin_about.php">About</a></li>
+          <li><a href="http://localhost/INVICTUS/ST/admin_contact.php">Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="http://localhost/ST/signup.php">Sign Up</a></li>
-          <li><a href="http://localhost/ST/admin_login.php">Admin Login</a></li>
-          <li><a href="http://localhost/ST/login.php">Login</a></li>
+          <li><a href="http://localhost/INVICTUS/ST/signup.php">Sign Up</a></li>
+          <li><a href="http://localhost/INVICTUS/ST/admin_login.php">Admin Login</a></li>
+          <li><a href="http://localhost/INVICTUS/ST/login.php">Login</a></li>
         </ul>
       </div>
     </div>
