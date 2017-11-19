@@ -117,8 +117,9 @@
       $link2 = "http://localhost/INVICTUS/ST/view.php/?event=";
       $link2 = $link2. "" .$temp['event'];
       
-      echo "<div class='col-lg-4 col-sm-6'><p><a href='$link2'><img src='$src'  alt = 'pic'></img></a>";
-      echo "<br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href = '$link'><button type='button' class='btn btn-primary'>".$temp['event']."</button></a>";
+      echo "<div class='col-lg-4 col-sm-6' style='text-align: center'><p><a href='$link2'><img src='$src'  alt = 'ADD An IMAGE'></img></a>";
+      
+      echo "<br><br><a href = '$link'><button type='button' class='btn btn-primary'>".$temp['event']."</button></a>";
       echo "</p></div>";
       echo "";
       
