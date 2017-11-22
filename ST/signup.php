@@ -25,7 +25,7 @@
 
 
 </head>
-<body>
+<body background="2.jpg" style="background-size:1920px 1000px;">
 	<div class="row">
 		<div class="col-md-4"></div>
 		<div class="col-md-4" style="text-align: center; color: red"><?php

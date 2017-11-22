@@ -37,7 +37,7 @@
   </script>
 
 </head>
-<body>
+<body background="2.jpg" style="background-size:1920px 1000px;">
 <?php 
   session_start();
   if(!isset($_SESSION['admin'])){

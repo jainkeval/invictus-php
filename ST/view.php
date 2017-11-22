@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>AdminPage</title>
+  <title>CLIENT</title>
   <link rel="stylesheet" type="text/css" href="http://localhost/INVICTUS/ST/css/style.css">
   <style type="text/css">
     body { padding-top: 70px; }
@@ -39,7 +39,7 @@
   </style>
 
 </head>
-<body>
+<body background="2.jpg">
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">

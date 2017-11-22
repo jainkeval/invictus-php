@@ -40,7 +40,7 @@
   </style>
 
 </head>
-<body>
+<body background="2.jpg" style="background-size:1920px 1000px;">
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">

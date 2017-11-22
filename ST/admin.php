@@ -28,7 +28,7 @@
   </style>
 
 </head>
-<body>
+<body background="2.jpg" style="background-size:1920px 1000px;">
 <?php 
   session_start();
   if(!isset($_SESSION['admin'])){
@@ -102,11 +102,11 @@
       $link2 = "http://localhost/INVICTUS/ST/delete.php/?event=";
       $link2 = $link2. "" .$temp['event'];
         
-      echo "<div class='col-lg-4 col-sm-6' style='text-align: center'><p><a href='$link2'><img src='$src'  alt = 'ADD An IMAGE'></img></a>";
+      echo "<div class='col-lg-4 col-sm-6' style='text-align: center'><p><a href = '$link'><img src='$src'  alt = 'ADD An IMAGE'></img></a>";
       
-      echo "<br><br><a href = '$link'><button type='button' class='btn btn-primary'>".$temp['event']."</button></a>";
+      echo "<br><br>";
       
-        echo "<a href = '$link2'>&nbsp&nbsp<button type='button' class='btn btn-primary'>Delete</button></a>";
+        echo "<a href = '$link2'><button type='button' class='btn btn-primary'>Delete ".$temp['event']."</button></a>";
         echo "</p></div>";
         echo "";
         

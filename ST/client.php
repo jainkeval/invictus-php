@@ -27,7 +27,7 @@
   </style>
 
 </head>
-<body>
+<body background="2.jpg" style="background-size:1920px 1000px;">
 <?php 
   session_start();
   if(!isset($_SESSION['user'])){
@@ -128,6 +128,25 @@
 
   ?>
 	</div>
+    <hr>
+  <font color="white"> <h3><b>Sportsmanship....</b></h3></font>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <a href="https://en.wikipedia.org/wiki/MS_Dhoni"><img src="s.jpg"></a>
+        </div>
+      </div>
+       <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <a href="https://en.wikipedia.org/wiki/Saina_Nehwal"><img src="sn.jpg"></a>
+        </div>
+      </div>
+       <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <a href="https://en.wikipedia.org/wiki/Lionel_Messi"><img src="m.jpg"></a>
+        </div>
+      </div>
+    </div>
   </div>
   	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
